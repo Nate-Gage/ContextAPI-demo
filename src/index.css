@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.nav {
+  border: 1px solid blue;
+  background-color: skyblue;
+}
+.bookPrice {
+  font-weight: 400;
+}
