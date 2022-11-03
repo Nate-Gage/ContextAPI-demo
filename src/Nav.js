@@ -5,7 +5,7 @@ const Nav = () => {
     const [books, setBooks] = useContext(BooksContext);
 
     return (
-        <div className="nav">
+        <div>
             <h3>List of Books: {books.length}</h3>
         </div>
     );

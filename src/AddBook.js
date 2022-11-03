@@ -18,7 +18,7 @@ const AddBook = () => {
     };
     const addBook = (e) => {
         e.preventDefault();
-        setBooks(prevBooks => [...prevBooks, { name: name, price: price }]);
+        setBooks(books => [...books, { name: name, price: price }]);
     }
 
     return (
